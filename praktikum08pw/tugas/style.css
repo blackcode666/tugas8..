@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    min-height: 500px;
+    flex-direction: column;
+}
+header, footer {
+    background-color: red;
+    padding: 15px;
+    margin: 20px;
+}
+
+
+main {
+    display: flex;
+    flex: 1;
+    height: 1000000px;
+    margin: 20px;
+}
+
+
+main article{
+    background-color: blue;
+    flex: 2;
+    height: 500px;
+}
+
+main aside{
+    background-color: violet;
+    flex: 3;
+    margin-left: 10px;
+}
+
+main nav{
+    background-color:aquamarine;
+    flex: 1;
+}
+
+.container{
+    position: absolute;
+  top: 400px;
+  right: 0;
+  width: 500px;
+  height: 300px;
+  border: 3px solid #73AD21;
+  margin: 10px;
+}
